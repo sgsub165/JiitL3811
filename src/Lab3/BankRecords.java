@@ -1,6 +1,6 @@
 /** 
 * Name: Stephen Griffith
-* Date: 10/23/2018
+* Date: 10/24/2018
 * Source File Name: BandRecords.java
 * Lab: Lab3
 */
