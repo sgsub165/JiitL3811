@@ -18,11 +18,11 @@ import java.util.Comparator;
 public class MaleComparator implements Comparator<BankRecords> {
 
 	@Override
-	public int compare(BankRecords o1, BankRecords o2) {
+	public int compare(BankRecords object1, BankRecords object2) {
 		// use compareTo to compare strings
-		int result = o1.getGender().compareTo(o2.getGender());
+		int result = object1.getGender().compareTo(object2.getGender());
 		if(result !=0) {return result;}
 		
-		return o1.getRegion().compareTo(o2.getRegion());
+		return object1.getRegion().compareTo(object2.getRegion());
 	}
 }

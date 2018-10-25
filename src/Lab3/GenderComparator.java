@@ -18,9 +18,9 @@ import java.util.Comparator;
 public class GenderComparator implements Comparator<BankRecords>{
 	 
 	@Override
-	public int compare(BankRecords male, BankRecords female) {
+	public int compare(BankRecords object1, BankRecords object2) {
 	// use compareTo to compare strings
-	int result = male.getGender().compareTo(female.getGender());
+	int result = object1.getGender().compareTo(object2.getGender());
 	return result;
 	}
  }
