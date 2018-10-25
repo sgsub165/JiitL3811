@@ -76,7 +76,9 @@ public class Records extends BankRecords{
 
 		//print resulting averages to console and file
 		double femaleAverageIncome = femaleIncomeSum/(femaleHeadCount);		//calculate the average female income
+		femaleAverageIncome = Math.round(femaleAverageIncome * 100) / 100.0;	//format to 2 decimal places for fileWrite
 		double maleAverageIncome = maleIncomeSum/(maleHeadCount);			//calculate the average male income
+		maleAverageIncome = Math.round(maleAverageIncome * 100) / 100.0;	//format to 2 decimal places for fileWrite
 		
 		//print averages to console
 		System.out.println("Welcome to the Bank of IIT");
